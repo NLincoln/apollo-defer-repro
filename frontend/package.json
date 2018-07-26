@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.2.6-alpha.10",
+    "apollo-client": "^2.4.0-alpha.10",
+    "apollo-link": "^1.2.2",
+    "apollo-link-error": "^1.1.0",
+    "apollo-link-http": "^1.6.0-alpha.2",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "react": "^16.4.1",
+    "react-apollo": "^2.2.0-alpha.0",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "proxy": "http://localhost:4000",
+  "scripts": {
+    "prestart": "yarn",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
